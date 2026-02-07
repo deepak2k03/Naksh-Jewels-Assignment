@@ -1,0 +1,49 @@
+/* Import Luxury Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --primary: #121212;       /* Deepest Black */
+  --secondary: #2C2C2C;     /* Dark Charcoal */
+  --accent: #D4AF37;        /* Naksh Gold */
+  --accent-hover: #B59020;  /* Darker Gold */
+  --white: #FFFFFF;
+  --bg-light: #FAFAFA;      /* Very light gray for background */
+  --text-main: #333333;
+  --text-light: #777777;
+  --radius: 4px;            /* Sharper corners for luxury feel */
+}
+
+/* Global Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.footer {
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  border-top: 4px solid var(--accent);
+}
