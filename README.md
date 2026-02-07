@@ -1,7 +1,7 @@
 # Naksh Jewels - E-commerce Module
 
 A full-stack e-commerce application built with React.js and Node.js for the Naksh Jewels internship assessment.
-
+Made By - Deepak Singh
 ## Features
 
 ### Frontend (React.js)
